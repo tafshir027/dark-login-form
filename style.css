@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+body {
+    background-color: #000;
+    color: #fff;
+
+}
+form {
+    background-color: transparent;
+}
+
+.box {
+    width: 320px;
+    height: 450px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: calc(100vh - 700px );
+    box-shadow: 2px 2px 4px cadetblue,inset -1px 1px 2px cadetblue;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-sizing: border-box;
+}
+
+
+ h2{
+text-align: center;
+letter-spacing: 0.1rem;
+margin: 40px 0px;
+
+}
+.txt-title {
+    color: cadetblue;
+    position: relative;
+
+
+}
+.box:hover .txt-title {
+    color: greenyellow;
+}
+/*
+.txt-title::after {
+    content: "";
+    height: 2px;
+    box-shadow: 1px 1px 2px cadetblue;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 35px;
+}
+*/
+
+h2 span {
+    color: #fff;
+}
+
+input[type="email"], input[type="password"], input[type="submit"] {
+    width: 100%;
+    display: block;
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: 2px 15px 2px 2px ;
+    -webkit-border-radius: 2px 15px 2px 2px ;
+    -moz-border-radius: 2px 15px 2px 2px ;
+    -ms-border-radius: 2px 15px 2px 2px ;
+    -o-border-radius: 2px 15px 2px 2px ;
+    background-color: transparent;
+    box-shadow:inset -1px -1px 2px cadetblue,1px 1px 1px #fff;
+    caret-color: cadetblue;
+}
+.box:hover input[type="email"],.box:hover input[type="password"] {
+    box-shadow:inset -1px -1px 2px greenyellow,1px 1px 1px transparent;
+    caret-color: greenyellow;
+}
+.box:hover a {
+    color: #fff;
+}
+
+
+::placeholder {
+    color:rgba(95, 158, 160,0.4);
+    letter-spacing: 1.4px;
+    font-size: 0.6rem;
+    padding: 5px;
+    text-align: left;
+    font-style: italic;
+    padding-left: 10px;
+    text-transform: uppercase;
+
+}
+:focus {
+    color: #fff;
+}
+input:focus-visible {
+    color: #fff;
+}
+
+input[type="submit"] {
+    background-color: cadetblue;
+    color: #fff;
+    box-shadow: none;
+    margin-top: 40px;
+    font-size: 1rem;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+
+}
+.box:hover input[type="submit"] {
+    background-color: greenyellow;
+    color: #000;
+}
+p {text-align: center;
+line-height: 30px;}
+p a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+
+/*Hover Effect*/
+.box:hover {
+    box-shadow: 2px 2px 4px greenyellow,inset -1px 1px 2px greenyellow;
+}
+
+.box:hover p    {
+    color: greenyellow;
+}
